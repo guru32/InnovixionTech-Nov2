@@ -36,7 +36,7 @@ h5{
     width: 50%;
     border-radius: 14px;
     overflow: hidden;
-    /* padding: 2rem; */
+    padding: 5px;
 }
 .timer{
     /* border: 1px solid rgb(151, 109, 109); */
@@ -101,4 +101,24 @@ input:hover{
         display: flex;
         flex-direction: column;
     }
+    .timer-input{
+        margin: auto;
+        color: antiquewhite;
+        font-size: 15px;
+        
+    }
+    h4 {
+        color: blanchedalmond;
+        font-size: 15px;
+      }
   }
+  @media only screen and (max-height: 700px) {
+     input{
+        display: inline;
+     }
+  }
+  @media only screen and (max-height: 578px) {
+    input{
+       display: inline;
+    }
+ }
